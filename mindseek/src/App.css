@@ -1,15 +1,15 @@
 :root {
-  /* Green & White Soothing Theme */
-  --primary: #3CB371;             /* MediumSeaGreen */
-  --primary-light: #81D8AE;       /* Soft Green */
-  --primary-dark: #26734d;        /* Dark Green */
-  --accent: #E2FFF3;              /* Very pale green/white accent */
-  --secondary: #FFFFFF;           /* White */
-  --text-color: #1B3A2B;          /* Dark greenish */
-  --text-secondary: #64996B;      /* Muted green */
-  --border-color: #DAF5E5;        /* Light green border */
+  /* Soothing DARK THEME with subtle green accent */
+  --primary: #31d27a;            /* Vibrant Green (accent) */
+  --primary-light: #36bf77;      /* Slightly lighter green */
+  --primary-dark: #24aa63;       /* Darker green accent */
+  --accent: #191e22;             /* For cards/secondary BGs */
+  --secondary: #23272A;          /* Main BG, dark charcoal */
+  --text-color: #f7f7fa;         /* Main text, very light */
+  --text-secondary: #b0bfc8;     /* Muted text */
+  --border-color: #2f3237;       /* Dark border, subtle */
   --app-radius: 18px;
-  --app-shadow: 0 2px 16px 0 rgba(60,179,113,0.10);
+  --app-shadow: 0 2px 16px 0 rgba(49,210,122,0.05);
 }
 
 body {
