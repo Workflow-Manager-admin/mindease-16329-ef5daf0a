@@ -33,7 +33,8 @@ body {
 }
 
 .navbar {
-  background-color: var(--kavia-dark);
+  background: var(--primary);
+  color: white;
   padding: 16px;
   display: flex;
   align-items: center;
@@ -44,6 +45,8 @@ body {
   width: 100%;
   box-sizing: border-box;
   z-index: 100;
+  border-radius: 0 0 var(--app-radius) var(--app-radius);
+  box-shadow: var(--app-shadow);
 }
 
 .logo {
@@ -52,10 +55,11 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
+  color: var(--primary-dark);
 }
 
 .logo-symbol {
-  color: var(--kavia-orange);
+  color: var(--primary);
 }
 
 .container {
