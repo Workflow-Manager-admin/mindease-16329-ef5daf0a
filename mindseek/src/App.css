@@ -38,13 +38,13 @@ body {
 }
 
 .navbar {
-  background: var(--primary);
-  color: white;
+  background: #191e22; /* Use the accent dark */
+  color: var(--text-color);
   padding: 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1.5px solid var(--border-color);
   position: fixed;
   top: 0;
   width: 100%;
@@ -52,6 +52,7 @@ body {
   z-index: 100;
   border-radius: 0 0 var(--app-radius) var(--app-radius);
   box-shadow: var(--app-shadow);
+  backdrop-filter: blur(2px);
 }
 
 .logo {
@@ -60,7 +61,7 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  color: var(--primary-dark);
+  color: var(--text-color);
 }
 
 .logo-symbol {
