@@ -112,19 +112,20 @@ body {
 
 .btn {
   background-color: var(--primary);
-  color: white;
+  color: var(--text-color);
   border: none;
   border-radius: 8px;
   padding: 10px 20px;
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
-  transition: background-color 0.2s ease;
-  box-shadow: 0 1px 4px 0 rgba(60,179,113,0.09);
+  transition: background 0.2s, color 0.2s, border 0.2s;
+  box-shadow: 0 1px 8px 0 rgba(49,210,122,0.05);
 }
-
 .btn:hover, .btn:focus {
   background-color: var(--primary-dark);
+  color: #fff;
+  outline: none;
 }
 
 .btn-large {
@@ -140,8 +141,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  background: var(--secondary);
+  background: var(--accent);
   border-radius: var(--app-radius);
   box-shadow: var(--app-shadow);
 }
-
