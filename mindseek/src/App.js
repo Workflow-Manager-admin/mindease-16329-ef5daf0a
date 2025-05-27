@@ -22,9 +22,9 @@ function App() {
             fontWeight: 700,
             fontSize: '1.35rem',
             letterSpacing: '.01em',
-            color: 'var(--primary-dark)'
+            color: 'var(--text-color)'
           }}>
-            <span style={{
+            <span className="logo-symbol" style={{
               color: 'var(--primary)',
               fontWeight: 700,
               fontSize: '2rem',
@@ -34,10 +34,10 @@ function App() {
           </div>
           <span style={{
             fontWeight: 500,
-            background: 'rgba(50,150,100,0.09)',
+            background: 'rgba(49,210,122,0.11)',
             borderRadius: 8,
             padding: '6px 16px',
-            color: 'var(--primary-dark)',
+            color: 'var(--primary)',
             fontSize: '1rem'
           }}>
             Your Calm Companion
@@ -53,7 +53,7 @@ function App() {
         }}>
           {/* Dashboard Quick Links */}
           <div className="hero" style={{
-            background: 'var(--secondary)',
+            background: 'var(--accent)',
             padding: '2.5rem 2rem',
             borderRadius: 'var(--app-radius)',
             boxShadow: 'var(--app-shadow)',
@@ -72,7 +72,7 @@ function App() {
             </div>
             <h1 className="title" style={{
               fontSize: '3rem',
-              color: 'var(--primary-dark)',
+              color: 'var(--text-color)',
               margin: 0,
               fontWeight: 600,
               lineHeight: 1.2
@@ -92,26 +92,26 @@ function App() {
             }}>
               <button className="btn btn-large" style={{
                 background: 'var(--primary)',
-                color: 'white',
+                color: 'var(--text-color)',
                 borderRadius: 8,
                 minWidth: 140
               }}>Mood Tracker</button>
               <button className="btn btn-large" style={{
                 background: 'var(--primary-light)',
-                color: 'var(--primary-dark)',
+                color: 'var(--text-color)',
                 borderRadius: 8,
                 minWidth: 140
               }}>Meditations</button>
               <button className="btn btn-large" style={{
                 background: 'var(--primary)',
-                color: 'white',
+                color: 'var(--text-color)',
                 borderRadius: 8,
                 minWidth: 140
               }}>Recommendations</button>
               <button className="btn btn-large" style={{
                 background: 'var(--accent)',
-                color: 'var(--primary-dark)',
-                border: `1px solid var(--primary-light)`,
+                color: 'var(--primary)',
+                border: `1.2px solid var(--primary-light)`,
                 borderRadius: 8,
                 minWidth: 140
               }}>Journal</button>
