@@ -12,25 +12,33 @@ function App() {
     <div className="app" style={{
       background: 'var(--secondary)'
     }}>
-      <nav className="navbar"
-        style={{
-          background: 'var(--primary)',
-          color: 'white',
-          borderBottom: 'none',
-          borderRadius: '0 0 var(--app-radius) var(--app-radius)',
-          boxShadow: 'var(--app-shadow)'
-        }}
-      >
-        <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <div className="logo" style={{ fontWeight: 700, fontSize: '1.35rem', letterSpacing: '.01em' }}>
-            <span style={{ color: 'var(--accent)', fontWeight: 700, fontSize: '2rem', marginRight: 8 }}>🧘‍♂️</span>
+      <nav className="navbar">
+        <div className="container" style={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center'
+        }}>
+          <div className="logo" style={{
+            fontWeight: 700,
+            fontSize: '1.35rem',
+            letterSpacing: '.01em',
+            color: 'var(--primary-dark)'
+          }}>
+            <span style={{
+              color: 'var(--primary)',
+              fontWeight: 700,
+              fontSize: '2rem',
+              marginRight: 8
+            }}>🧘‍♂️</span>
             MindEase
           </div>
           <span style={{
             fontWeight: 500,
-            background: 'rgba(255,255,255,0.18)',
-            borderRadius: 8, padding: '6px 16px',
-            color: 'white', fontSize: '1rem'
+            background: 'rgba(50,150,100,0.09)',
+            borderRadius: 8,
+            padding: '6px 16px',
+            color: 'var(--primary-dark)',
+            fontSize: '1rem'
           }}>
             Your Calm Companion
           </span>
@@ -38,10 +46,14 @@ function App() {
       </nav>
 
       <main>
-        <div className="container" style={{ marginTop: 96, paddingBottom: 64, maxWidth: 950 }}>
+        <div className="container" style={{
+          marginTop: 96,
+          paddingBottom: 64,
+          maxWidth: 950
+        }}>
           {/* Dashboard Quick Links */}
           <div className="hero" style={{
-            background: 'white',
+            background: 'var(--secondary)',
             padding: '2.5rem 2rem',
             borderRadius: 'var(--app-radius)',
             boxShadow: 'var(--app-shadow)',
@@ -51,17 +63,25 @@ function App() {
             gap: 28,
             marginBottom: 32
           }}>
-            <div className="subtitle" style={{ color: 'var(--primary)', fontWeight: 500, fontSize: '1.25rem' }}>
+            <div className="subtitle" style={{
+              color: 'var(--primary)',
+              fontWeight: 500,
+              fontSize: '1.25rem'
+            }}>
               Welcome to MindEase
             </div>
             <h1 className="title" style={{
-              fontSize: '3rem', color: 'var(--primary)',
-              margin: 0, fontWeight: 600, lineHeight: 1.2
+              fontSize: '3rem',
+              color: 'var(--primary-dark)',
+              margin: 0,
+              fontWeight: 600,
+              lineHeight: 1.2
             }}>
               Your mental wellness hub
             </h1>
             <div className="description" style={{
-              color: 'var(--text-secondary)', fontSize: '1.08rem'
+              color: 'var(--text-secondary)',
+              fontSize: '1.08rem'
             }}>
               Track your mood, enjoy guided meditations, discover daily recommendations, and reflect in your journal — all in a soothing space designed for you.
             </div>
@@ -77,8 +97,8 @@ function App() {
                 minWidth: 140
               }}>Mood Tracker</button>
               <button className="btn btn-large" style={{
-                background: 'var(--accent)',
-                color: 'white',
+                background: 'var(--primary-light)',
+                color: 'var(--primary-dark)',
                 borderRadius: 8,
                 minWidth: 140
               }}>Meditations</button>
@@ -89,9 +109,9 @@ function App() {
                 minWidth: 140
               }}>Recommendations</button>
               <button className="btn btn-large" style={{
-                background: '#FFF4F5',
-                color: 'var(--accent)',
-                border: `1px solid var(--accent)`,
+                background: 'var(--accent)',
+                color: 'var(--primary-dark)',
+                border: `1px solid var(--primary-light)`,
                 borderRadius: 8,
                 minWidth: 140
               }}>Journal</button>
